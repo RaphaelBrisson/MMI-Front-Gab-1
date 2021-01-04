@@ -1,0 +1,78 @@
+header
+{
+
+}
+
+.titre,.hr
+{
+	color: white;
+	font-weight: 300;
+}
+
+.titre
+{
+	padding-bottom: 8%;
+	padding-left: 5%;
+	font-size: 350%;
+}
+
+.hr
+{
+	/*padding-top: 0%;*/
+	/*border: 2px solid white;*/
+	height: 1px; background-color: white; border: none;
+}
+
+.breadcrumb
+{
+	display: flex;	
+	padding-left: 6%;
+	font-weight: 400;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.arborescence
+{
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.active
+{
+	font-weight: 300;
+	color: white;
+}
+
+.produits
+{
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 75px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 25px;
+	max-width: 970px;
+	justify-content: space-between;
+}
+
+.element
+{
+	display: block;
+	width: calc(100% / 3);
+	text-align: center;
+	transition-duration: 0.3s;
+	max-width: 270px;
+	padding-top: 5%;
+}
+
+.element:hover{
+	transform: scale(1.05);
+}
+
+.matiere
+{
+	padding-top: 8%;
+	padding-bottom: 5%;
+}

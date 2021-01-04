@@ -1,0 +1,77 @@
+footer
+{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+
+
+.logo_bas
+{
+	width: 12%;
+}
+
+
+.logo_bas,.menu_f,.socials
+{
+	margin-top: 3%;
+	padding-bottom: 1%;
+}
+
+#twitter,#fb,.by_zeecom
+{
+	transition-duration: 0.1s;
+}
+
+hover,#twitter:hover,#fb:hover,.by_zeecom:hover
+{
+	transform: scale(1.05);
+	transition-duration: 0.3s;
+}
+
+#fb,#twitter
+{
+	margin-left: 1%;
+	margin-right: 1%;
+	/*cursor: pointer;*/
+}
+
+
+.by_zeecom
+{
+	/*display: inline-block;*/
+	justify-content: center;
+}
+
+
+
+
+@media all and (max-width: 767px)
+{
+	footer
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media all and (max-width: 480px)
+{
+	#fb
+	{
+		width: 2%;
+	}
+
+	#twitter
+	{
+		width: 5%;
+	}
+
+	.by_zeecom,.gris_zeecom
+	{
+		font-size: 7pt;
+	}
+
+}

@@ -1,0 +1,198 @@
+body
+{
+	background-color: #f8b00d;
+	color: #002456;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.wrap
+{
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+
+h2
+{
+	font-size: 50%;
+}
+
+
+.femmes
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.femmes > div 
+{
+	position: relative;
+} 
+
+
+.cadres, .cadres2
+{
+	position: absolute;	
+	background-color: white;
+	left: 0;
+	top: 50%;
+	right: 0;
+	width: 71%;
+	text-align: center;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	line-height: 0.6;
+	height: 20%;
+	/*cursor: pointer;*/
+	transition-property: transform;
+	transition-duration: 0.1s;
+}
+
+.cadres:hover,.cadres2:hover
+{
+	transform: translateY(-50%) scale(1.05);	
+	transition-duration: 0.3s;
+}
+
+.cadres2
+{
+	width: 69%;
+}
+
+
+
+.on_the_bridge
+{
+
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.on_the_bridge_bp
+{
+
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+.riga
+{
+	display: block;
+	position: relative;
+	height: auto;
+}
+
+.arabesque
+{
+	display: block;
+	position: relative;
+	height: auto;
+}
+
+.b,.c
+{
+	width: 50%;
+}
+
+nav
+{
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav li
+{
+	float: left;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 100%;
+	text-align: center;
+	font-size: 80%;
+	margin: 0 10px;
+
+
+	/*cursor: pointer;*/
+}
+
+li
+{
+	transition-duration: 0.1s;
+}
+
+li:hover
+{
+	transform: scale(1.05);
+	transition-duration: 0.3s;
+}
+
+
+.recclic
+ {
+ 	position: absolute;
+ 	top: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	left: 0;
+ }
+
+.menu_js
+{
+	padding-top: 5%;
+	background: #550088;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+	transform: translateX(-100%);
+	transition-duration: 0.4s;
+}
+
+#croix
+{
+	width: 3%;
+	margin-left: 75%;
+	cursor: pointer;
+}
+
+ul.bold3>li>a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.bold3
+{
+	font-weight: 700;
+	font-size: 25pt;
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 3em;
+}
+
+.active
+{
+	transform: translateX(0%);
+	transition-duration: 0.4s;
+}
+
+.leave
+{
+	transform: translateX(100%);
+	transition-duration: 0.4s;
+}
+

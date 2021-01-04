@@ -1,0 +1,160 @@
+.arabesque, .riga
+	{
+		max-width: 100%;
+	}
+
+@media all and (max-width: 1170px)
+{
+	.wrap
+	{
+		max-width: 1000px;
+	}
+}
+
+
+@media all and (max-width: 1024px)
+{
+	.wrap
+	{
+		max-width: 850px;
+	}
+
+	.arabesque, .riga
+	{
+		max-width: 100%;
+	}
+}
+
+@media all and (max-width: 980px)
+{
+	.wrap
+	{
+		max-width: 800px;
+	}
+
+	.bold3
+	{
+		line-height: 3.5em;
+	}
+}
+
+@media all and (max-width: 767px)
+{
+	.wrap
+	{
+		max-width: 550px;
+	}
+
+	.b,.c
+	{
+		width: 100%;
+	}
+
+	.on_the_bridge
+	{
+		display: none;
+	}
+
+	.on_the_bridge_bp
+	{
+		display: block;
+	}
+
+	.femmes
+	{	
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.a,.b,.c
+	{
+		width: 100%;
+	}
+
+	.bold,.boldf,.bold2,.bold_z
+	{
+		font-size: 9pt;
+
+	}
+
+	.light
+	{
+		font-size: 17pt;
+	}
+
+	.gris_zeecom
+	{
+		font-size: 9pt;
+	}
+	
+	.bold3
+	{
+		font-size: 18pt;
+		line-height: 5em;
+	}
+}
+
+@media all and (max-width: 480px)
+{
+	
+	.wrap
+	{
+		max-width: 380px;
+	}	
+
+	.bold,.boldf,.bold2,.bold_z
+	{
+		font-size: 7pt;
+
+	}
+
+	.light
+	{
+		font-size: 13pt;
+	}
+	.gris_zeecom
+	{
+		font-size: 7pt;
+	}
+
+	.bold3
+	{
+		font-size: 12pt;
+		line-height: 8em;
+	}
+
+	nav.menu_f li
+	{
+		float: none;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-top: 3px;
+    	padding-bottom: 15px;
+    	line-height: 2em;
+	}
+	
+	.bold
+	{
+		display: block;
+
+	}
+
+	#menu
+	{
+		max-width: 7%;
+	}
+}
+
+@media all and (max-width: 320px)
+{
+	.wrap
+	{
+		max-width: 250px;
+	}	
+	
+	.light
+	{
+		margin-top: 15px;
+	}
+}

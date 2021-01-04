@@ -1,0 +1,43 @@
+.bold,.boldf,.bold2,.bold_z
+{
+	font-weight: 700;
+	font-size: 11pt;
+	text-decoration: none;
+	color: #002456;
+}
+
+.bold
+{
+	display: flex;
+	justify-content: center;
+}
+
+.boldf
+{
+	margin-top: 6%;
+}
+.bold2
+{
+	margin-top: 10%;
+}
+
+
+.light
+{
+	font-weight: 300;
+	font-size: 20pt;
+	margin-top: 25px;
+}
+
+.gris_zeecom
+{
+	color: grey;
+	font-weight: 300;
+	font-size: 11pt;
+}
+
+a
+{
+	text-decoration: none;
+	color: #002456;
+}
